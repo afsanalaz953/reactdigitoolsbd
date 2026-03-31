@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "description": "Perfect for beginners looking to create professional resumes quickly",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "10+ professional templates",
+      "Basic ATS optimization",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Plan",
+    "description": "Advanced features for job seekers who want to stand out",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "50+ premium templates",
+      "Advanced ATS optimization",
+      "Export to PDF, DOCX, HTML",
+      "Cover letter builder",
+      "Priority email & chat support"
+    ],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Suite",
+    "description": "Complete solution for career professionals and agencies",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "100+ premium templates",
+      "AI-powered content suggestions",
+      "ATS optimization",
+      "Multiple resume versions",
+      "Portfolio integration",
+      "24/7 dedicated support"
+    ],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "Starter Kit",
+    "description": "Essential tools to create your first professional resume",
+    "price": 4.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "5 basic templates",
+      "Basic formatting tools",
+      "Export to PDF",
+      "Spell checker"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Premium Monthly",
+    "description": "Unlock all features with flexible monthly subscription",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All templates included",
+      "Unlimited exports",
+      "ATS optimization",
+      "Cover letter builder",
+      "Resume analytics",
+      "Priority support"
+    ],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Annual Professional",
+    "description": "Best value for serious job seekers with yearly commitment",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "All premium features",
+      "Save 37% vs monthly",
+      "Resume scoring system",
+      "Interview preparation tools",
+      "LinkedIn profile optimization",
+      "Priority support"
+    ],
+    "icon": "/src/assets/products/Group 7.png"
+  }  
+]
