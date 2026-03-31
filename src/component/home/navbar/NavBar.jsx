@@ -17,7 +17,7 @@ const NavBar = () => {
   <div className="navbar-end gap-2">
     <img src="/src/assets/products/shopping-cart.png" alt="" />
     <button className='btn-neutral border-2 px-1'>login</button>
-    <a className="btn rounded-full bg-blue-500">Get Started</a>
+    <a className="btn rounded-full bg-blue-400">Get Started</a>
   </div>
 </div>
          
