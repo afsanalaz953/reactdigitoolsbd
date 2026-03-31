@@ -6,6 +6,7 @@ import Products from "./component/home/navbar/Products"
 import Start from "./component/home/navbar/Start"
 import Startcard from "./component/home/navbar/Startcard"
 import {Suspense} from "react";
+import Pricing from "./component/home/navbar/Pricing"
 import './App.css'
 
 const fetchProducts = async() =>{
@@ -28,6 +29,7 @@ function App() {
     
      <Start></Start>
     <Startcard></Startcard>
+    <Pricing></Pricing>
 
     </>
   )

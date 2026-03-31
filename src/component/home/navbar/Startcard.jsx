@@ -2,8 +2,8 @@ import React from 'react';
 
 const Startcard = () => {
     return (
-        <div className='grid grid-cols-3 gap-4 mx-40 my-10 bg-base-200'>
-            <div className=''>
+        <div className='grid grid-cols-3 gap-4 mx-40 my-10 bg-base-200 '>
+            <div className='bg-base-200'>
                 <div className="card bg-white shadow-sm rounded-2xl border-0">
   <div className="card-body">
     <div className="card-actions justify-end">
