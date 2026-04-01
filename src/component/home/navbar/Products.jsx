@@ -1,12 +1,20 @@
 import React, { use } from 'react';
-
-const Products = ({productsPromise}) => {
+import { toast } from 'react-toastify'; 
+const Products = ({productsPromise,addToCart }) => {
     console.log (productsPromise);
     const products = use(productsPromise);
-    console.log (products);
+
+    const handleAddToCart = (product) => {
+        addToCart(product);
+        toast.success(`${product.name} added to cart!`, {
+            position: "top-right",
+            autoClose: 2000,
+        });
+    }
+
     return (
         <div className=' container ms-auto grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-10'>
-           {products.map(product => <div className='border-0 shadow-sm rounded-2xl'  >
+           {products.map(product => <div key={product.id} className='border-0 shadow-sm rounded-2xl'  >
             <div className='p-10'>
                 <div className='relative'>
                  <button className='absolute -top-8 left-55 w-30 rounded-3xl p-2 border-0 bg-amber-100 text-amber-400 text-[15px]'> {product.tag} </button>
@@ -33,7 +41,7 @@ const Products = ({productsPromise}) => {
   ))}
 </ul>
 </div>
-<button className='w-70 p-4 mt-4 text-white bg-blue-700 rounded-3xl border-0'>Buy Now</button>
+<button onClick={() => handleAddToCart(product)} className='w-70 p-4 mt-4 text-white bg-blue-700 rounded-3xl border-0 hover:bg-blue-800 transition-colors'> Add to Cart </button>
             </div>
            </div>)} 
         </div>
